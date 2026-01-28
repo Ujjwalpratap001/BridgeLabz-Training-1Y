@@ -1,17 +1,17 @@
-//March 20 to June 20
 import java.util.Scanner;
-public class SpringSeason{
-	public static void main(String [] args){
+class SpringSeason{
+	public static void main(String[] args){
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter a date");
-		int day= sc.nextInt();
-		System.out.println("Enter a month");
-		int month= sc.nextInt();
-		if(month >=3 && month<=6){
-			System.out.println("Spring Season ");
+		System.out.println("Enter Month in Digits");
+		int a = sc.nextInt();
+		System.out.println("Enter Date");
+		int b = sc.nextInt();
+		if(( a == 3 && b>=20) || (a == 4) || (a == 5) ||
+		(a == 6 && b <=20)) {
+			System.out.println("Its a spring season");
 		}
 		else{
-			System.out.println("Not a Spring Season");
+			System.out.println("Not a spring Season");
 		}
 	}
 }

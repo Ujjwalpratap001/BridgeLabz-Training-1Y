@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class PowerOfNumber {
+class PowerWhile {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter number:");
@@ -8,8 +8,10 @@ class PowerOfNumber {
         int power = sc.nextInt();
         if (number > 0 && power > 0) {
             int result = 1;
-            for (int i = 1; i <= power; i++) {
+            int counter = 0;
+            while (counter < power) {
                 result = result * number;
+                counter++;
             }
             System.out.println(number + " raised to the power " + power + " is " + result);
         } else {

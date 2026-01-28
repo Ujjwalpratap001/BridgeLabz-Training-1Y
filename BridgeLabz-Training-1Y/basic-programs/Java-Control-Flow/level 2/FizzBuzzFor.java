@@ -1,12 +1,11 @@
 import java.util.Scanner;
-class FizzBuzzWhile {
+class FizzBuzzFor {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a number:");
         int n = sc.nextInt();
         if (n > 0) {
-            int i = 1;
-            while (i <= n) {
+            for (int i = 1; i <= n; i++) {
                 if (i % 3 == 0 && i % 5 == 0) {
                     System.out.println("FizzBuzz");
                 } else if (i % 3 == 0) {
@@ -16,7 +15,6 @@ class FizzBuzzWhile {
                 } else {
                     System.out.println(i);
                 }
-                i++;
             }
         } else {
             System.out.println("Please enter a positive integer");
