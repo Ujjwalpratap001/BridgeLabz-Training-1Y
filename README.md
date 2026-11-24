@@ -50,6 +50,7 @@ This repository documents a practical learning path in Java, programming constru
 
 ## Related work
 
-- [Java-Practice](https://github.com/Ujjwalpratap001/tree/main/Java-Practice)
-- [BridgeLabzTraining2Y](https://github.com/Ujjwalpratap001/tree/main/BridgelabzTraining2Y)
-- [LeetCode-Solutions](https://github.com/Ujjwalpratap001/tree/main/LeetCode-Solutions)
+- [BridgeLabzTraining2Y](https://github.com/Ujjwalpratap001/BridgelabzTraining2Y)
+- [Typing Panda](https://typing-panda.web.app)
+- [Ujjwal Pratap’s public GitHub projects](https://github.com/Ujjwalpratap001?tab=repositories)
+- [Personal portfolio source](https://github.com/Ujjwalpratap001/ujjwal-portfolio)
